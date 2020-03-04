@@ -12,21 +12,23 @@
 
     <body class="bg-light">
         <header class="position-fixed w-100 p-3 bg-dark" style="z-index: 999;">
-            <div class="container d-lg-flex justify-content-between">
-                <div class="header-logo">
-                    <a href="#" class="text-white h2">BLOG</a>
+            <div class="container">
+                <div class="row d-lg-flex justify-content-between">
+                    <div class="col-lg-2">
+                        <a href="#" class="text-white h2">BLOG</a>
+                    </div>
+                    <nav class="col-lg-5 nav justify-content-end pt-2">
+                        <a href="#" class="nav-item ml-4 text-white">メニュー01</a>
+                        <a href="#" class="nav-item ml-4 text-white">メニュー02</a>
+                        <a href="#" class="nav-item ml-4 text-white">メニュー03</a>
+                        <a href="#" class="nav-item ml-4 text-white">メニュー04</a>
+                    </nav>
                 </div>
-                <nav class="nav pt-2">
-                    <a href="#" class="nav-item ml-4 text-white">メニュー01</a>
-                    <a href="#" class="nav-item ml-4 text-white">メニュー02</a>
-                    <a href="#" class="nav-item ml-4 text-white">メニュー03</a>
-                    <a href="#" class="nav-item ml-4 text-white">メニュー04</a>
-                </nav>
             </div>
         </header>
 
         <div class="container pt-5">
-            <div class="d-lg-flex justify-content-between mt-5 mb-5">
+            <div class="row d-lg-flex justify-content-between mt-5 mb-5">
                 <div class="col-lg-7 bg-white pt-3">
                     <span class="text-muted">2018.02.14</span>
                     <h2>記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</h2>
@@ -50,18 +52,16 @@
                         <span>何かと使える枠のスタイル何かと使える枠のスタイル何かと使える枠のスタイル<br>何かと使える枠のスタイル何かと使える枠のスタイル何かと使える枠のスタイル<br>何かと使える枠のスタイル何かと使える枠のスタイル何かと使える枠のスタイル</span>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="row">
-                        <form action="" method="POST" class="w-100">
-                            <div class="form-group d-flex justify-content-center">
-                                <input type="text" class="form-control">
-                                <button type="submit" class="bg-dark pl-2 pr-2"><i class="fas fa-search text-white"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="row bg-white mb-5">
+                <div class="col-lg-4 col-sm-4">
+                    <form action="" method="POST" class="w-100">
+                        <div class="form-group d-flex justify-content-center">
+                            <input type="text" class="form-control">
+                            <button type="submit" class="bg-dark pl-2 pr-2"><i class="fas fa-search text-white"></i></button>
+                        </div>
+                    </form>
+                    <div class="bg-white mb-5">
                         <p class="p-3 bg-dark text-white w-100">新着記事</p>
-                        <div class="d-lg-flex m-3">
+                        <div class="d-flex m-3">
                             <div class="col-lg-5 pt-3">
                                 <img src="/img/single-img.jpg" class="w-100" alt="">
                             </div>
@@ -71,7 +71,7 @@
                                 <span>タイトルが入ります</span>
                             </div>
                         </div>
-                        <div class="d-lg-flex m-3">
+                        <div class="d-flex m-3">
                             <div class="col-lg-5 pt-2">
                                 <img src="/img/thum-img.jpg" class="w-100" alt="">
                             </div>
@@ -81,7 +81,7 @@
                                 <span>タイトルが入ります</span>
                             </div>
                         </div>
-                        <div class="d-lg-flex m-3">
+                        <div class="d-flex m-3">
                             <div class="col-lg-5 pt-3">
                                 <img src="/img/single-img.jpg" class="w-100" alt="">
                             </div>
@@ -91,7 +91,7 @@
                                 <span>タイトルが入ります</span>
                             </div>
                         </div>
-                        <div class="d-lg-flex m-3">
+                        <div class="d-flex m-3">
                             <div class="col-lg-5 pt-2">
                                 <img src="/img/thum-img.jpg" class="w-100" alt="">
                             </div>
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row bg-white">
+                    <div class="bg-white">
                         <p class="p-3 bg-dark text-white w-100">カテゴリー</p>
                         <ul class="list-unstyled ml-4">
                             <li class="mb-1">カテゴリー名</li>
@@ -116,36 +116,38 @@
         </div>
 
         <footer class="w-100 bg-dark text-white p-4">
-            <div class="container d-lg-flex">
-                <div class="col-lg-4">
-                    <p class="font-weight-bold">サイトナビ</p>
-                    <hr style="border-top: 2px solid #fff;">
-                    <ul class="list-unstyled">
-                        <li class="mb-1">フッターナビ</li>
-                        <li class="mb-1">フッターナビ</li>
-                        <li class="mb-1">フッターナビ</li>
-                        <li class="mb-1">フッターナビ</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <p class="font-weight-bold">サイトナビ</p>
-                    <hr style="border-top: 2px solid #fff;">
-                    <ul class="list-unstyled">
-                        <li class="mb-1">フッターナビ</li>
-                        <li class="mb-1">フッターナビ</li>
-                        <li class="mb-1">フッターナビ</li>
-                        <li class="mb-1">フッターナビ</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <p class="font-weight-bold">サイトナビ</p>
-                    <hr style="border-top: 2px solid #fff;">
-                    <ul class="list-unstyled">
-                        <li class="mb-1">フッターナビ</li>
-                        <li class="mb-1">フッターナビ</li>
-                        <li class="mb-1">フッターナビ</li>
-                        <li class="mb-1">フッターナビ</li>
-                    </ul>
+            <div class="container">
+                <div class="row d-lg-flex">
+                    <div class="col-lg-4">
+                        <p class="font-weight-bold">サイトナビ</p>
+                        <hr style="border-top: 2px solid #fff;">
+                        <ul class="list-unstyled">
+                            <li class="mb-1">フッターナビ</li>
+                            <li class="mb-1">フッターナビ</li>
+                            <li class="mb-1">フッターナビ</li>
+                            <li class="mb-1">フッターナビ</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="font-weight-bold">サイトナビ</p>
+                        <hr style="border-top: 2px solid #fff;">
+                        <ul class="list-unstyled">
+                            <li class="mb-1">フッターナビ</li>
+                            <li class="mb-1">フッターナビ</li>
+                            <li class="mb-1">フッターナビ</li>
+                            <li class="mb-1">フッターナビ</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="font-weight-bold">サイトナビ</p>
+                        <hr style="border-top: 2px solid #fff;">
+                        <ul class="list-unstyled">
+                            <li class="mb-1">フッターナビ</li>
+                            <li class="mb-1">フッターナビ</li>
+                            <li class="mb-1">フッターナビ</li>
+                            <li class="mb-1">フッターナビ</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>
