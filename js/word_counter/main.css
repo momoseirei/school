@@ -1,10 +1,9 @@
-html {
-    background: rgb(204, 204, 204);
-}
 body {
     margin: 0;
+    background: rgb(204, 204, 204);
 }
 .main-contents {
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     background: #fff;
