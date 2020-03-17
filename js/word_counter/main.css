@@ -1,0 +1,16 @@
+html {
+    background: rgb(204, 204, 204);
+}
+body {
+    margin: 0;
+}
+.main-contents {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+}
+.form-wrap {
+    width: 70%;
+    margin: 0 auto;
+}

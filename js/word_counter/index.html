@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/bootstrap.min.css">
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body>
+        <div class="main-contents">
+            <h1 class="text-center mb-5">文字数カウンター</h1>
+            <div class="form-wrap">
+                <form method="post" action="">
+                    <div class="form-group">
+                        <textarea id="text" class="form-control" rows="5" placeholder="文字を入力してください" onkeyup="countStr('text', 'result', 'warning')"></textarea>
+                        <span id="warning" class="text-danger"></span>
+                    </div>
+                </form>
+                <div class="counter">
+                    <p>入力された文字数 : <span id="result">0</span></p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="/main.js"></script>
+    </body>
+</html>
