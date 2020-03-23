@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background: rgb(204, 204, 204);
+}
+.main-contents {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+}
+.form-wrap {
+    width: 70%;
+    margin: 0 auto;
+}
