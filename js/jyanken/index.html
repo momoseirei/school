@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/bootstrap.min.css">
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body>
+        <div class="main-contents">
+            <h1 class="text-center mb-5">ジャンケンゲーム</h1>
+            <div class="form-wrap">
+                <div class="form-group">
+                    <p>1 グー</p>
+                    <p>2 チョキ</p>
+                    <p>3 パー</p>
+                    <input id="number" class="form-control" placeholder="数字を入力してください"></input>
+                    <span id="warning" class="text-danger"></span>
+                    <button onclick="fight()">ジャンケンする</button>
+                </div>
+                <div class="result">
+                    <p>結果 : <span id="result-txt"></span><p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="/main.js"></script>
+    </body>
+</html>
