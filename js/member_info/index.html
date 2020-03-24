@@ -9,7 +9,22 @@
     <body>
         <div class="main-contents">
             <h1 class="text-center mb-5">メンバーの情報一覧ページの作成</h1>
-            <button onclick="membersInfo()">メンバー情報</button>
+            <div class="show-buttons d-flex justify-content-between">
+                <button onclick="membersInfo()">メンバー情報出力</button>
+                <button onclick="membersInfoSortAge(20)">20代</button>
+                <button onclick="membersInfoSortAge(30)">30代</button>
+                <button onclick="membersInfoSortAge(40)">40代</button>
+            </div>
+            <div class="members-table">
+                <table>
+                    <thead>
+                        <th>名前</th>
+                        <th>年齢</th>
+                        <th>趣味</th>
+                    </thead>
+                    <tbody id="members-row"></tbody>
+                </table>
+            </div>
         </div>
         <script type="text/javascript" src="/main.js"></script>
     </body>

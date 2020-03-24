@@ -9,7 +9,23 @@ body {
     background: #fff;
     padding: 30px;
 }
-.form-wrap {
-    width: 70%;
+
+
+.members-table table {
+    width: 50%;
     margin: 0 auto;
+}
+.members-table th {
+    width: 33%;
+    background: rgb(134, 205, 207);
+    padding: 10px;
+    text-align: center;
+}
+.members-table td {
+    text-align: center;
+    padding: 5px;
+}
+.show-buttons {
+    width: 50%;
+    margin: 30px auto;
 }
