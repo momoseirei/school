@@ -1,0 +1,59 @@
+input[type="radio"] {
+  margin: 3px 5px 0px 20px;
+}
+input[type="radio"]:first-child {
+  margin-left: 0px;
+}
+th, td {
+  padding-bottom: 20px;
+}
+
+
+.modal-content {
+  display: none;
+  width: 40%;
+  margin: 0;
+  padding: 20px 20px;
+  background: rgb(228, 228, 228);
+  position: fixed;
+  text-align: center;
+  z-index: 2;
+}
+@media screen and (max-width: 768px){
+  .modal-content {
+    width: 80%;
+  }
+}
+#modal-overlay {
+  z-index: 1;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background-color: rgba( 0,0,0, 0.75 );
+}
+
+.modal-table {
+  width: 100%;
+}
+.modal-table th,
+.modal-table td {
+  text-align: left;
+}
+.submit-btn {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.form-wrap {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.form-wrap table {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
