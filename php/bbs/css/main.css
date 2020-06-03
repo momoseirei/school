@@ -1,0 +1,81 @@
+p {
+  margin-bottom: 0;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(149, 196, 199);
+  z-index: 100;
+}
+.header-ttl p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.signin a {
+  padding: 27px;
+}
+
+.post-msg {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 90%;
+  max-width: 1000px;
+}
+#submit {
+  margin-top: 20px;
+  width: 100px;
+  background: rgb(179, 218, 167);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+.main-contents {
+  width: 90%;
+  max-width: 1000px;
+  height: 680px;
+  background: rgb(175, 177, 177);
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 5px;
+  overflow: scroll;
+}
+.main-contents.unlogined {
+  margin-top: 100px;
+}
+.post-content {
+  position: relative;
+  background: #fff;
+  width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.post-content.mypost {
+  background: rgb(233, 245, 227);
+  margin-left: auto;
+}
+.post-content:first-child {
+  margin-top: 0;
+}
+.post-ttl {
+  border-bottom: 1px solid #595757;
+  padding: 10px;
+  align-items: flex-end;
+}
+.post-ttl p:first-child {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.post-text {
+  margin-top: 20px;
+}
+.delete-btn {
+  position: absolute;
+  bottom: 0;
+  left: -70px;
+}
