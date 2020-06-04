@@ -29,5 +29,5 @@ CREATE TABLE users (
   PRIMARY KEY(id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO users (username, password) VALUES ("田中 太郎", "$2b$10$sh22bauCQMlH6AcupyjpReR8/S/aIH2iNZ3sOxMnPoZIMHxlCMYTK");
+INSERT INTO users (username, password) VALUES ("田中 太郎", "$2y$10$6M3JGRTsQW96B4GyebhyC.Ja0svfGnAZFNyd2Uw1VssKYY7E8U2HO");
 INSERT INTO bbs (title, contributor, contributor_id, content) VALUES ("おはよう", "田中 太郎", 1, "テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト");

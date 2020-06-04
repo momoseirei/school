@@ -10,7 +10,7 @@ return [
   "db" => [
     "local" => [
       "host" => "localhost",
-      "name" => "school",
+      "name" => "bbs",
       "user" => "momo",
       "pass" => "asdasd"
     ],

@@ -32,7 +32,7 @@ function connect($conf) {
 function fetch_post_contents($conf) {
   try {
       $pdo = connect($conf);
-      $sql = "SELECT * FROM bbs ORDER BY created_at DESC";
+      $sql = "SELECT * FROM posts ORDER BY created_at DESC";
       $stmh = $pdo->prepare($sql);
       $stmh->execute();
       $rows = $stmh->fetchAll(PDO::FETCH_ASSOC);
@@ -47,7 +47,7 @@ function fetch_post_contents($conf) {
 function insert_post_content($conf, $title, $contributor, $contributor_id, $content) {
     try {
         $pdo = connect($conf);
-        $sql = "INSERT INTO bbs (
+        $sql = "INSERT INTO posts (
             title, contributor, contributor_id, content
           ) VALUES (
             :title, :contributor, :contributor_id, :content
@@ -93,7 +93,7 @@ function serch_user_for_login($conf, $username) {
 function delete_post($conf, $post_id) {
   try {
       $pdo = connect($conf);
-      $sql = "DELETE FROM bbs WHERE id=:post_id;";
+      $sql = "DELETE FROM posts WHERE id=:post_id;";
       $stmh = $pdo->prepare($sql);
       $stmh -> bindValue(':post_id', $post_id, PDO::PARAM_INT);
       $stmh->execute();
