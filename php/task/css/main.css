@@ -1,0 +1,74 @@
+p {
+  margin-bottom: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(149, 196, 199);
+  z-index: 100;
+}
+.header-ttl p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.signin a {
+  padding: 27px;
+}
+.post-msg {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 90%;
+  max-width: 1000px;
+}
+#submit {
+  margin-top: 20px;
+  width: 100px;
+  background: rgb(179, 218, 167);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.form-wrap {
+  width: 80%;
+  max-width: 1000px;
+  min-width: 500px;
+  background: rgb(192, 227, 229);
+  margin: 100px auto;
+}
+.login-ttl {
+  padding: 30px 0px;
+}
+.login-ttl p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.form-wrap table {
+  width: 60%;
+  margin: 0 auto;
+}
+.form-wrap .submit-btn {
+  padding-bottom: 20px;
+}
+
+.show-tasks {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.show-tasks.unlogined {
+  margin-top: 100px;
+}
+.show-tasks table {
+  width: 100%;
+}
+.show-tasks table th {
+  background: rgb(112, 112, 112);
+  color: #fff;
+  padding: 10px;
+}
+.show-tasks table td {
+  padding: 10px;
+}
